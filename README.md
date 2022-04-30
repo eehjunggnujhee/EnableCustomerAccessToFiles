@@ -9,7 +9,7 @@ Scenario: A client has an experience site where they engage with community users
     $ git clone https://github.com/eehjunggnujhee/EnableCustomerAccessToFiles.git
     ```
 
-2. Spin up a scratch org by running CumulusCI commnads
+2. Spin up a scratch org and deploy the resources by running CumulusCI commands
     ```shell
     $ cci org scratch dev fileAccess --days 30 # 30days scratch org lifetime
     $ cci flow run dev_org --org fileAccess
@@ -17,7 +17,7 @@ Scenario: A client has an experience site where they engage with community users
 3. Enable File Access to Set By Record
 ![](assets/01_FileAccessToSetByRecord.png)
 
-4. Enabled Experience Site
+4. Enable Experience Site
 ![](assets/02_EnableDigitalExperience.png)
 
 5. Upload a file to an account record and validate that the file is viewable by community users

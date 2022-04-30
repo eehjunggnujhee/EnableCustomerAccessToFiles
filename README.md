@@ -26,4 +26,9 @@ Scenario: A client has an experience site where they engage with community users
 6. Add additional FileCustomerAccessObject records for other objects that you want to set up the same view permission to the related files.
 ![](assets/04_FileCudstomerAccessObject.png)
 
+### How to install
+
+https://MyDomainName.lightning.force.com/packagingSetupUI/ipLanding.app?apvId=04t8b000001NqtCAAS
+
+
 ** This is a personal project **

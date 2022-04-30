@@ -1,12 +1,12 @@
 # Enable Customer Access to a File Inherited through a Record Permission
 
-Scenario: A client has an experience site where they engage with community users with. Both the internal staff and the community users maintain records on standards and custom objects and exchnage notes and files uploaded to those records. The clinet wishes that the file View permission is enabled by default when a staff upload a file to a record where a community user also have either View or Edit access.
+Scenario: A client has an experience site where they engage with community users. Both the internal staff and the community users maintain records on standard and custom objects and exchange notes and files uploaded to those records. The client wishes that the file's View permission is enabled by default when a staff upload a file to a record which the community users also have either View or Edit access.
 
 ## Steps to Test
 
 1. Clone this repository
     ```shell
-    $ git clone EnableCustomerAccessToFiles.git
+    $ git clone https://github.com/eehjunggnujhee/EnableCustomerAccessToFiles.git
     ```
 
 2. Spin up a scratch org by running CumulusCI commnads
@@ -25,4 +25,4 @@ Scenario: A client has an experience site where they engage with community users
 
 6. Add additional FileCustomerAccessObject records for other objects that you want to set up the same view permission to the related files.
 ![](assets/04_FileCudstomerAccessObject.png)
-<img src="assets/04_FileCudstomerAccessObject.png" width="500">
+

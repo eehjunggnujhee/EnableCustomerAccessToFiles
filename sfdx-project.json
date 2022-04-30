@@ -3,16 +3,17 @@
         {
             "path": "force-app",
             "default": true,
-            "package": "EnableCustomerAccessToFiles",
-            "versionName": "1.0.0",
-            "versionNumber": "1.0.0.NEXT"
+            "package": "EnableCustomerAccessToFilesV01",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
-    "name": "EnableCustomerAccessToFilesBsfd",
+    "name": "EnableCustomerAccessToFiles",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "54.0",
     "packageAliases": {
-        "EnableCustomerAccessToFiles": "0Ho8b000000wk37CAA"
+        "EnableCustomerAccessToFilesV01": "0Ho8b000000wk3CCAQ",
+        "EnableCustomerAccessToFilesV01@0.1.0-1": "04t8b000001NqtCAAS"
     }
 }

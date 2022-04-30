@@ -2,6 +2,11 @@
 
 Scenario: A client has an experience site where they engage with community users. Both the internal staff and the community users maintain records on standard and custom objects and exchange notes and files uploaded to those records. The client wishes that the file's View permission is enabled by default when a staff upload a file to a record which the community users also have either View or Edit access.
 
+ 
+<a href="https://githubsfdeploy.herokuapp.com?owner=financialforcedev&amp;repo=apex-mdapi">
+  <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
+</a>
+
 ## Steps to Test
 
 1. Clone this repository

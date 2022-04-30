@@ -1,0 +1,27 @@
+minimum_cumulusci_version: '3.57.0'
+project:
+    name: EnableCustomerAccessToFiles
+    package:
+        name: EnableCustomerAccessToFiles
+        api_version: '54.0'
+    git:
+        default_branch: 'main'
+    test:
+        name_match: '%TEST'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/EnableCustomerAccessToFiles/tests
+            options:
+                outputdir: robot/EnableCustomerAccessToFiles/results
+
+    robot_testdoc:
+        options:
+            path: robot/EnableCustomerAccessToFiles/tests
+            output: robot/EnableCustomerAccessToFiles/doc/EnableCustomerAccessToFiles_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

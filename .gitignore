@@ -3,6 +3,9 @@
 .sfdx
 /src.orig
 /src
+.config
+/.cci
+/.sfdx
 
 # Python
 *.pyc

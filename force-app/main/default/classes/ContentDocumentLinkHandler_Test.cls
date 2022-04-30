@@ -24,7 +24,7 @@ private class ContentDocumentLinkHandler_Test {
 
     }
     /*
-    *   @method createContentVersion() [private]
+    *   @method createContentVersion()
     *   @desc   Creates a content version from a given file's base64 and a filename
     *   @param  {String} based64 - a string base64 value of a file
     *   @param  {String} filename - A filename given to the base64

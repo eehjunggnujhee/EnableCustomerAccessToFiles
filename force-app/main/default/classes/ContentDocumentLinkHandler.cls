@@ -28,9 +28,9 @@ public without sharing class ContentDocumentLinkHandler {
         }
 
         // Get CMT that stores a list of objects that will need community access to files that are linked to them
-        List<FileExternalObjectAccess__mdt> accessObjs = FileExternalObjectAccess__mdt.getAll().values();
+        List<FileCustomerAccessObject__mdt> accessObjs = FileCustomerAccessObject__mdt.getAll().values();
         //system.debug(accessObjs);
-        for (FileExternalObjectAccess__mdt file : accessObjs) {
+        for (FileCustomerAccessObject__mdt file : accessObjs) {
             if(file.prefix__c != null){
                 idPrefixes.add(file.prefix__c);
             }
